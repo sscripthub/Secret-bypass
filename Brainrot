@@ -76,7 +76,7 @@ local VerifyKeyBtn = CreateButton("Verify Key", Color3.fromRGB(255, 136, 0), UDi
 
 GetKeyBtn.MouseButton1Click:Connect(function()
     if setclipboard then
-        setclipboard("https://deluxe-snickerdoodle-3defba.netlify.app/")
+        setclipboard("https://incandescent-starburst-a30705.netlify.app/")
     end
     Status.Text = "Put This In Your Browser"
     Status.TextColor3 = Color3.fromRGB(50, 255, 50)
