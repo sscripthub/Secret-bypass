@@ -78,11 +78,11 @@ GetKeyBtn.MouseButton1Click:Connect(function()
     if setclipboard then
         setclipboard("https://deluxe-snickerdoodle-3defba.netlify.app/")
     end
-    Status.Text = "Key copiada!"
+    Status.Text = "Put This In Your Browser"
     Status.TextColor3 = Color3.fromRGB(50, 255, 50)
 end)
 
 VerifyKeyBtn.MouseButton1Click:Connect(function()
-    Status.Text = "Key inválido"
+    Status.Text = "Invalid Key"
     Status.TextColor3 = Color3.fromRGB(255, 50, 50)
 end)
